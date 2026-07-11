@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: Arial, Calibri, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #1a1a1a;
+    background-color: #f3f4f6;
+  }
+}
+
+@layer components {
+  /* A4 page: 210mm x 297mm. Content grows downward; extra content
+     flows onto additional printed pages via CSS page-break rules below. */
+  .resume-page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 18mm 20mm;
+    box-sizing: border-box;
+  }
+}
+
+/* Print-specific rules: strip screen chrome, lock exact A4 sizing,
+   and keep section/list items from splitting awkwardly across pages. */
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  html,
+  body {
+    background: #ffffff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .resume-page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0;
+    box-shadow: none !important;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  h2,
+  h3,
+  article,
+  li {
+    break-inside: avoid;
+  }
+}
