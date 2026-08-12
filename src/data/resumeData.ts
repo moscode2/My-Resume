@@ -15,12 +15,13 @@ export const resumeData: ResumeData = {
   },
 
   professionalSummary:
-    'Computer Science graduate and Full Stack Developer with hands-on experience building responsive, ' +
-    'production-ready web applications using React.js, Node.js, and TypeScript. Skilled in translating ' +
-    'designs into accessible, cross-browser-compatible interfaces and collaborating with cross-functional ' +
-    'teams in Agile environments. Combines strong front-end development skills with practical ICT support ' +
-    'experience, including systems troubleshooting, network diagnostics, and end-user support. Seeking to ' +
-    'apply proven technical and problem-solving skills to deliver reliable, well-engineered software solutions.',
+    'Computer Science graduate and Full Stack Developer with hands-on experience ' +
+    'building responsive, mobile-first web applications using React.js,' +
+    'JavaScript/ES6+, TypeScript, HTML5, CSS3, Next.js and Tailwind CSS.' +
+    'Experienced in developing reusable UI components, integrating REST APIs, ' +
+    'optimizing web performance, ensuring cross-browser compatibility, and ' +
+    'troubleshooting frontend issues. Familiar with Agile development, Git/GitHub,' +
+    'responsive design principles, and modern web application architecture.',
 
   coreCompetencies: [
     'Full-Stack Web Development',
@@ -38,7 +39,7 @@ export const resumeData: ResumeData = {
   technicalSkills: [
     {
       category: 'Frontend Technologies',
-      skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript', 'React.js', 'Next.js', 'Vue.js', 'Tailwind CSS'],
+      skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript', 'React.js', 'Next.js', 'Vue.js', 'Tailwind CSS' , 'Responsive Design', 'Mobile-First Development', 'Cross-Browser Compatibility'],
     },
     {
       category: 'Backend Technologies',
