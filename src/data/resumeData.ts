@@ -14,8 +14,7 @@ export const resumeData: ResumeData = {
     },
   },
 
-  professionalSummary:
-    'Computer Science graduate and Full Stack Developer with hands-on experience ' +
+  professionalSummary: 'Computer Science graduate and Full Stack Developer with hands-on experience ' +
     'building responsive, mobile-first web applications using React.js,' +
     'JavaScript/ES6+, TypeScript, HTML5, CSS3, Next.js and Tailwind CSS.' +
     'Experienced in developing reusable UI components, integrating REST APIs, ' +
@@ -39,7 +38,7 @@ export const resumeData: ResumeData = {
   technicalSkills: [
     {
       category: 'Frontend Technologies',
-      skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript', 'React.js', 'Next.js', 'Vue.js', 'Tailwind CSS' , 'Responsive Design', 'Mobile-First Development', 'Cross-Browser Compatibility'],
+      skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript', 'React.js', 'Next.js', 'Vue.js', 'Tailwind CSS', 'Responsive Design', 'Mobile-First Development', 'Cross-Browser Compatibility'],
     },
     {
       category: 'Backend Technologies',
@@ -57,6 +56,19 @@ export const resumeData: ResumeData = {
 
   professionalExperience: [
     {
+      jobTitle: 'IT Support Intern',
+      company: 'Murotech Solutions Limited',
+      startDate: 'November 2025',
+      endDate: 'March 2026',
+      responsibilities: [
+        'Provided first-line technical support for hardware and software issues.',
+        'Installed and configured Windows operating systems and office applications.',
+        'Diagnosed and resolved printer and network connectivity issues.',
+        'Assisted users with password resets and application support.',
+        'Maintained ICT equipment inventory and documentation.',
+      ],
+    },
+    {
       jobTitle: 'Junior Full Stack Developer',
       company: 'CodSoft Limited',
       startDate: 'January 2025',
@@ -66,11 +78,6 @@ export const resumeData: ResumeData = {
         'Built responsive user interfaces with HTML, CSS, Tailwind CSS, and JavaScript/TypeScript.',
         'Collaborated with senior developers in code reviews, debugging, and feature deployment.',
         'Gained experience in Git/GitHub version control and Agile project management tools.',
-        'Provided first-line technical support for hardware and software issues.',
-        'Installed and configured Windows operating systems and office applications.',
-        'Diagnosed and resolved printer and network connectivity issues.',
-        'Assisted users with password resets and application support.',
-        'Maintained ICT equipment inventory and documentation.',
       ],
     },
     {
@@ -101,8 +108,7 @@ export const resumeData: ResumeData = {
   projects: [
     {
       name: 'Budget Buddy — Financial Guidance',
-      description:
-        'A personal finance tracking web app that helps users monitor expenses, set savings goals, and ' +
+      description: 'A personal finance tracking web app that helps users monitor expenses, set savings goals, and ' +
         'visualize spending patterns through interactive charts and real-time updates.',
       techStack: ['React.js', 'Node.js', 'Socket.io', 'MongoDB', 'TypeScript'],
       link: 'https://budgetbuddy-mu.vercel.app/',
@@ -117,8 +123,7 @@ export const resumeData: ResumeData = {
     },
     {
       name: 'AfriEuropa News',
-      description:
-        'Full-stack diaspora news platform connecting Africa and Europe, featuring curated articles, ' +
+      description: 'Full-stack diaspora news platform connecting Africa and Europe, featuring curated articles, ' +
         'category-based filtering, and secure authentication. Focused on fast performance, mobile-first ' +
         'design, and a clean, modern UI for a global audience.',
       techStack: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS', 'Vite'],
@@ -149,8 +154,5 @@ export const resumeData: ResumeData = {
       date: '2026',
     },
   ],
-
-  // Add awards or recognitions here as they are earned, e.g.:
-  // { title: 'Best Final Year Project', issuer: 'The Co-operative University of Kenya', date: '2025' }
-  awards: [],
+  awards: []
 };
