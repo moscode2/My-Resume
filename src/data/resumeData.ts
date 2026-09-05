@@ -56,7 +56,7 @@ export const resumeData: ResumeData = {
 
   professionalExperience: [
     {
-      jobTitle: 'IT Support Intern',
+      jobTitle: 'IT Support Engineer',
       company: 'Murotech Solutions Limited',
       startDate: 'November 2025',
       endDate: 'March 2026',
