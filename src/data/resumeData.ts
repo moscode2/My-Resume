@@ -17,18 +17,16 @@ export const resumeData: ResumeData = {
   professionalSummary: 'Computer Science graduate and Full Stack Developer with hands-on experience ' +
     'building responsive, mobile-first web applications using React.js,' +
     'JavaScript/ES6+, TypeScript, HTML5, CSS3, Next.js and Tailwind CSS.' +
-    'Experienced in developing reusable UI components, integrating REST APIs, ' +
+    'Experienced in developing reusable UI components, ' +
     'optimizing web performance, ensuring cross-browser compatibility, and ' +
-    'troubleshooting frontend issues. Familiar with Agile development, Git/GitHub,' +
+    'troubleshooting frontend issues. Familiar with Git/GitHub,' +
     'responsive design principles, and modern web application architecture.',
 
   coreCompetencies: [
     'Full-Stack Web Development',
     'Responsive UI Implementation',
-    'Agile & Scrum Collaboration',
     'Version Control (Git/GitHub)',
     'Cross-Browser Compatibility',
-    'API Design & Integration',
     'Technical Troubleshooting',
     'ICT Systems Support',
     'Client & Stakeholder Communication',
@@ -42,7 +40,7 @@ export const resumeData: ResumeData = {
     },
     {
       category: 'Backend Technologies',
-      skills: ['Node.js', 'Express.js', 'Python', 'Django', 'REST APIs'],
+      skills: ['Node.js', 'Express.js', 'Python', 'Django'],
     },
     {
       category: 'Databases & Cloud',
@@ -50,7 +48,7 @@ export const resumeData: ResumeData = {
     },
     {
       category: 'Development Tools',
-      skills: ['Git', 'GitHub', 'VS Code', 'Webpack', 'Vite', 'Jest'],
+      skills: ['Git', 'GitHub', 'VS Code', 'Webpack', 'Vite','],
     },
   ],
 
@@ -77,7 +75,7 @@ export const resumeData: ResumeData = {
         'Assisted in developing and maintaining web applications using React.js and Node.js.',
         'Built responsive user interfaces with HTML, CSS, Tailwind CSS, and JavaScript/TypeScript.',
         'Collaborated with senior developers in code reviews, debugging, and feature deployment.',
-        'Gained experience in Git/GitHub version control and Agile project management tools.',
+        'Gained experience in Git/GitHub version control.',
       ],
     },
     {
@@ -89,7 +87,6 @@ export const resumeData: ResumeData = {
         'Designed and implemented responsive web pages using HTML, CSS, Tailwind CSS, and JavaScript.',
         'Optimized website performance and ensured cross-browser compatibility.',
         'Worked closely with designers to translate wireframes into functional web pages.',
-        'Participated in Agile development sprints.',
       ],
     },
     {
