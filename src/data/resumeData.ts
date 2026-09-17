@@ -36,7 +36,7 @@ export const resumeData: ResumeData = {
   technicalSkills: [
     {
       category: 'Frontend Technologies',
-      skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript', 'React.js', 'Next.js', 'Vue.js', 'Tailwind CSS', 'Responsive Design', 'Mobile-First Development', 'Cross-Browser Compatibility'],
+      skills: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React.js', 'Next.js', 'Vue.js', 'Tailwind CSS', 'Responsive Design', 'Mobile-First Development', 'Cross-Browser Compatibility'],
     },
     {
       category: 'Backend Technologies',
