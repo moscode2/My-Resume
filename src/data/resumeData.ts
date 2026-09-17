@@ -10,7 +10,7 @@ export const resumeData: ResumeData = {
       location: 'Nairobi, Kenya',
       linkedin: 'linkedin.com/in/moses-onyango-007459298',
       github: 'github.com/moscode2',
-      portfolio: 'justmee.netlify.app',
+      portfolio: 'https://mosdev-online-cv.vercel.app/',
     },
   },
 
