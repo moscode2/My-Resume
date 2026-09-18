@@ -48,7 +48,7 @@ export const resumeData: ResumeData = {
     },
     {
       category: 'Development Tools',
-      skills: ['Git', 'GitHub', 'VS Code', 'Webpack', 'Vite','],
+      skills: ['Git', 'GitHub', 'VS Code', 'Vite'],
     },
   ],
 
